@@ -29,6 +29,7 @@ namespace AspNet.Security.OAuth.Twitch
 
             ClaimActions.MapJsonKey(ClaimTypes.NameIdentifier, "_id");
             ClaimActions.MapJsonKey(ClaimTypes.Name, "name");
+            ClaimActions.MapJsonKey(ClaimTypes.Email, "email");
         }
     }
 }
